@@ -1,0 +1,43 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-navbar ul,
+.right-navbar ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.left-navbar-list,
+.right-navbar-list {
+  list-style: none;
+}
+
+.left-navbar-list li,
+.right-navbar-list li {
+  margin-right: 50px;
+  cursor: pointer;
+}
+
+.left-navbar-list li:hover{
+    color: #5cb0c8;
+}
+
+img {
+  width: 70px;
+}
+
+.funding-btn {
+  border: none;
+  padding: 15px;
+  border-radius: 40px;
+  background-color: #f29cc4;
+}
+
+.login-btn {
+  padding: 15px 30px;
+  border: none;
+}
+
